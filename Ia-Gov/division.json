@@ -1,0 +1,9 @@
+{
+  "divisions": {
+    "ia-gov": {
+      "label": "IA-Gov",
+      "icon": "Network",
+      "color": "#F97316"
+    }
+  }
+}
