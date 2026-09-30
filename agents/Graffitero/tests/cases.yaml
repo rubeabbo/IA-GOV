@@ -1,0 +1,13 @@
+cases:
+  - id: education_process
+    request: "Explicar un proceso en 6 etapas"
+    expect: {purpose: [educational, process], representation: flowchart_or_swimlane}
+  - id: commercial_concept
+    request: "Mostrar transformación de caos a capacidad IA"
+    expect: {purpose: [commercial, cognitive_support]}
+  - id: academic_matrix
+    request: "Comparar cinco dimensiones con valores exactos"
+    expect: {purpose: [academic], representation: matrix_or_data_visualization}
+  - id: symbolic_mandala
+    request: "Construir mandala con correspondencias y labels exactos"
+    expect: {purpose: [symbolic_esoteric], representation: vector_symbolic_diagram}
