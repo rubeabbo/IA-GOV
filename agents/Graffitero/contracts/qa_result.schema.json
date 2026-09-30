@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"QAResult","type":"object","properties":{"status":{"enum":["PASS","REVISE","ESCALATE"]},"issues":{"type":"array","items":{"type":"object","properties":{"severity":{"enum":["critical","major","minor"]},"problem":{"type":"string"},"correction":{"type":"string"}}}}},"required":["status"]}
