@@ -1,0 +1,15 @@
+tools:
+  image_generator:
+    capability: generate_or_edit_raster_visuals
+  figma_figjam:
+    capability: structured_design_flows_ui_diagrams
+  canva:
+    capability: fast_editorial_commercial_composition
+  photoshop:
+    capability: raster_retouch_compositing
+  illustrator:
+    capability: vector_geometry_infographics
+  html_svg_mermaid:
+    capability: exact_text_diagrams_tables_dashboards
+  video_animation_tool:
+    capability: execute_preplanned_shots
