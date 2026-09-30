@@ -1,0 +1,7 @@
+name: Graffitero
+version: 0.2
+kind: agent
+role: visual-director
+skills_prefix: graffitero-
+max_revision_loops: 3
+entrypoint: AGENT.md
