@@ -1,0 +1,24 @@
+name: Navy-Operator
+version: 0.1.0
+kind: agent
+role: execution-observer
+entrypoint: AGENT.md
+cadence_minutes: 30
+inputs:
+  - mission_contract
+  - execution_contract_graph
+  - execution_events
+  - partial_artifacts
+  - cerbero_gates
+  - interpretation_changes
+outputs:
+  - visible_graph
+  - artifact_progress
+  - interpretation_log
+  - periodic_status
+permissions:
+  project: read
+  graph: read
+  artifacts: read
+  gates: read
+  user_status_channel: write
